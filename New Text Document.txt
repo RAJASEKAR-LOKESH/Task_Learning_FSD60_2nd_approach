@@ -1,8 +1,11 @@
 git config --list
+
+// updating username and email
 git config --global user.name "Github_username"
 git config --global user.email "Github_email_address"
 git config --list
 
+// Initial Stage
 git init
 git add .
 git commit -m "First comment"
@@ -10,6 +13,7 @@ git branch -M main
 git remote add origin https://github.com/RAJASEKAR-LOKESH/Task_Learning_FSD60_2nd_approach
 git push -u origin main
 
+// Update
 git add .
 git commit -m "first commit"
 git push
